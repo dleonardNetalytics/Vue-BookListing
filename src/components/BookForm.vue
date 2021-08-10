@@ -20,7 +20,7 @@ export default {
         }
     },
     methods:{
-        onsubmit(bookTitle, bookAuthor){
+        bookSubmit(bookTitle, bookAuthor){
             this.$emit('addBook', bookTitle, bookAuthor)
         }
     }
