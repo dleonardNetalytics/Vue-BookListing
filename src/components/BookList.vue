@@ -15,7 +15,7 @@
 <script>
 
 import BookItem from './BookItem';
-import BookForm from './BookForm'
+import BookForm from './BookForm';
     export default {
         name: 'BookList',
         components:{BookItem, BookForm},
